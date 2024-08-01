@@ -17,10 +17,9 @@ function App() {
     // tạo một số ngẫu nhiên từ Math.random() chạy từ 0 -> 1
     const random = Math.random();
 
-    // tham chiếu đến boxA và boxB
     let newBoxA = [...boxA];
     let newBoxB = [...boxB];
-
+    // so sánh và set ngẫu nhiên cho A và B
     if (random > 0.5) {
       newBoxA.push('');
       setBoxA(newBoxA);
