@@ -1,0 +1,24 @@
+.App{
+  margin-left: 20px;
+}
+.App .box{
+  background-color: green;
+  width: 80px;
+  height: 20px;
+  margin-right: 5px;
+}
+.hiden{
+  display: none;
+}
+.btn{
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.list-box {
+  display: flex;
+}
+
+
+
+
+
